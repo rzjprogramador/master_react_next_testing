@@ -2,13 +2,13 @@ import "@testing-library/jest-dom"
 import { render } from "@testing-library/react"
 import { describe, expect, test } from "vitest"
 
-import App from "@src/pages/_App"
+import Home from "@src/pages"
 
-describe("App", () => {
-  test("deve renderizar o App com o texto: Alo mundo", () => {
-    const { debug, getByText } = render(<App />)
+describe("<Home />", () => {
+  test("deve renderizar a Home com o texto: Alo Mundo - Home", () => {
+    const { debug, getByText } = render(<Home />)
     // debug()
 
-    expect(getByText("Alo mundo")).toBeInTheDocument()
+    expect(getByText("Alo Mundo - Home")).toBeInTheDocument()
   })
 })
