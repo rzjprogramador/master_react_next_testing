@@ -3,10 +3,10 @@ import { DefaultThemeDomain } from '@src/domain/styles/theme/default_theme.contr
 export const lightTheme: DefaultThemeDomain = {
   title: 'light',
   colors: {
-    primary: '#0394fc',
-    secundary: '#7159c1',
-    terciary: '#fc3903',
-    background: '#f5f5f5',
-    text: '#333',
+    primary: 'hsl(204, 62%, 40%)',
+    secundary: 'hsl(0, 100%, 35%)',
+    terciary: 'hsl(45, 100%, 40%)',
+    background: 'hsl(0, 0%, 96%)',
+    text: 'hsl(225°, 5%, 17%)',
   },
 }

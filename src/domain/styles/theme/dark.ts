@@ -3,10 +3,10 @@ import { DefaultThemeDomain } from '@src/domain/styles/theme/default_theme.contr
 export const darkTheme: DefaultThemeDomain = {
   title: 'dark',
   colors: {
-    primary: '#262626',
-    secundary: '#7159c1',
-    terciary: '#a88332',
-    background: '#292a2d',
-    text: '#f5f5f5',
+    primary: 'hsl(225, 5%, 10%)',
+    secundary: 'hsl(225, 5%, 15%)',
+    terciary: 'hsl(225, 5%, 15%)',
+    background: 'hsl(225, 5%, 15%)',
+    text: 'hsl(0, 0%, 96%)',
   },
 }
