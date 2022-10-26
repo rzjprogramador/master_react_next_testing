@@ -5,7 +5,7 @@ type Response<T> = [T, Dispatch<SetStateAction<T>>]
 
 export function usePersistedStateTheme<T>(
   key: string,
-  initialState: any,
+  initialState: T,
 ): Response<T> {
   const [state, setState] = useState(() => {
     const storageValue =
