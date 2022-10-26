@@ -5,7 +5,7 @@ export const dark: DefaultTheme = {
   colors: {
     primary: "#333",
     secundary: "#7159c1",
-    terciary: "green",
+    terciary: "#a88332",
     background: "#222",
     text: "#f5f5f5",
   },
