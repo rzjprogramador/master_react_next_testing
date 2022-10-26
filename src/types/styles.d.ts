@@ -1,6 +1,6 @@
-import { DefaultThemeDomain } from "@src/domain/contracts/default_theme"
-import "styled-components"
+import { DefaultThemeDomain } from '@src/domain/styles/theme/default_theme.contract'
+import 'styled-components'
 
-declare module "styled-components" {
+declare module 'styled-components' {
   export interface DefaultTheme extends DefaultThemeDomain {}
 }

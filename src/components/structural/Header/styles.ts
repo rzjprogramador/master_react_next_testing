@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 // import { HeaderStructure } from "@src/styles/_customs/definers/header_structure"
 

@@ -1,12 +1,13 @@
-import { DefaultTheme } from "styled-components"
+import { darkTheme } from '@src/domain/styles/theme/dark'
+import { DefaultTheme } from 'styled-components'
 
 export const dark: DefaultTheme = {
-  title: "dark",
+  title: darkTheme.title,
   colors: {
-    primary: "#333",
-    secundary: "#7159c1",
-    terciary: "#a88332",
-    background: "#222",
-    text: "#f5f5f5",
+    primary: darkTheme.colors.primary,
+    secundary: darkTheme.colors.secundary,
+    terciary: darkTheme.colors.terciary,
+    background: darkTheme.colors.background,
+    text: darkTheme.colors.text,
   },
 }

@@ -1,9 +1,9 @@
-import React, { useContext } from "react"
-import Switch from "react-switch"
-import { ThemeContext } from "styled-components"
-import { shade } from "polished"
+import React, { useContext } from 'react'
+import Switch from 'react-switch'
+import { ThemeContext } from 'styled-components'
+import { shade } from 'polished'
 
-import { Container } from "@src/components/structural/Header/styles"
+import { Container } from '@src/components/structural/Header/styles'
 
 type HeaderProps = {
   toogleTheme(): void

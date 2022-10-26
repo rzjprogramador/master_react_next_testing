@@ -1,0 +1,19 @@
+TEMA LIGHT
+title: "light",
+  colors: {
+    primary: "#7159c1",
+    secundary: "#a83268",
+    terciary: "#fc3903",
+    background: "#f5f5f5",
+    text: "#333",
+  },
+
+TEMA DARK
+title: "dark",
+  colors: {
+    primary: "#222",
+    secundary: "#7159c1",
+    terciary: "#a88332",
+    background: "#333",
+    text: "#f5f5f5",
+  },

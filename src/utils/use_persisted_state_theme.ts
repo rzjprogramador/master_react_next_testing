@@ -1,5 +1,5 @@
-import { useState, useEffect, Dispatch, SetStateAction } from "react"
-import "styled-components"
+import { useState, useEffect, Dispatch, SetStateAction } from 'react'
+import 'styled-components'
 
 type Response<T> = [T, Dispatch<SetStateAction<T>>]
 
@@ -9,7 +9,7 @@ export function usePersistedStateTheme<T>(
 ): Response<T> {
   const [state, setState] = useState(() => {
     const storageValue =
-      typeof window !== "undefined" ? localStorage.getItem(key) : null
+      typeof window !== 'undefined' ? localStorage.getItem(key) : null
     if (storageValue) {
       return JSON.parse(storageValue)
     } else {
