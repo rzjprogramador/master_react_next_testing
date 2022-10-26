@@ -1,14 +1,6 @@
+import { DefaultThemeDomain } from '@src/domain/contracts/default_theme'
 import "styled-components"
 
 declare module "styled-components" {
-  export interface DefaultTheme {
-    title: string
-    colors: {
-      primary: string
-      secundary: string
-      terciary: string
-      background: string
-      text: string
-    }
-  }
+  export type DefaultTheme = DefaultThemeDomain
 }
