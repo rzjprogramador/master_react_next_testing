@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 import Switch from 'react-switch'
 import { ThemeContext } from 'styled-components'
-import { shade } from 'polished'
 
 import { Container } from '@src/components/structural/Header/styles'
+import { color } from '@src/domain/styles/custom_colors/colors'
 
 type HeaderProps = {
   toogleTheme(): void
@@ -11,7 +11,7 @@ type HeaderProps = {
 // type HeaderProps = () => JSX.Element
 
 const Header = ({ toogleTheme }: HeaderProps) => {
-  const { colors, title } = useContext(ThemeContext)
+  const { title } = useContext(ThemeContext)
 
   return (
     <>
@@ -25,8 +25,8 @@ const Header = ({ toogleTheme }: HeaderProps) => {
           height={10}
           width={40}
           handleDiameter={20}
-          offColor={shade(0.15, colors.primary)}
-          onColor={colors.secundary}
+          offColor={color.exporadic.colorReactSwitch.off}
+          onColor={color.exporadic.colorReactSwitch.on}
         />
       </Container>
     </>

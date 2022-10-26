@@ -1,12 +1,13 @@
 import { DefaultThemeDomain } from '@src/domain/styles/theme/default_theme.contract'
+import { color } from '@src/domain/styles/custom_colors/colors'
 
 export const lightTheme: DefaultThemeDomain = {
   title: 'light',
   colors: {
-    primary: 'hsl(204, 62%, 40%)',
-    secundary: 'hsl(0, 100%, 35%)',
-    terciary: 'hsl(45, 100%, 40%)',
-    background: 'hsl(0, 0%, 96%)',
-    text: 'hsl(225°, 5%, 17%)',
+    primary: color.blue.medio,
+    secundary: color.red.dark,
+    terciary: color.gold.medio,
+    background: color.clean.clean,
+    text: color.dark.medio,
   },
 }
